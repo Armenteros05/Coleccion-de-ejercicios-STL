@@ -28,3 +28,18 @@ namespace Matematicas {
         return a * a;
     }
 }
+
+int main() {
+    cout << "Los valores de a y b son 5 y 3, respectivamente." << endl;
+    cout << "Suma: " << Matematicas::suma(5, 3) << endl;
+    cout << "Resta: " << Matematicas::resta(5, 3) << endl;
+    cout << "Multiplicacion: " << Matematicas::multiplicacion(5, 3) << endl;
+
+    int divisor = 3;
+    cout << "Division: " << Matematicas::division(5, divisor) << endl;
+
+    int base = 2;
+    cout << "Cuadrado: " << Matematicas::cuadrado(base) << endl;
+
+    return 0;
+}
